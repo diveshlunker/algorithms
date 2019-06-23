@@ -29,3 +29,12 @@ def flatten_iter(iterable):
             yield from flatten_iter(element)    
         else:
             yield element
+       
+    
+    
+def flatten_arr(inputArray):
+    l=[]
+    for i in inputArray:
+        for j in inputArray:
+            l.append(j)
+    return j
